@@ -1,6 +1,0 @@
-#problems
-
-Configure github using ssh in a repository and keep using https in the other repositories:
--generate a ssh key: 
--generate local host
--add the ssh key

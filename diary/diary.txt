@@ -1,0 +1,39 @@
+#problems
+
+Configure github using ssh in a repository and keep using https in the other repositories:
+-generate a ssh key: 
+-generate local host
+-add the ssh key
+
+
+#Day Two:
+
+#Topic A ->  activate venv and install fastApi
+
+-Activate venv -> virtual enviroment of phyton
+-A venv folder appears on file explorer
+
+-pip install fastapi uvicorn to install fastApi and uvicorn
+*FastApi is a framework to build APIs using phyton
+*uvicorn is the server where API will be executed
+
+#Topic B -> Create my first API endpoint
+
+->endpoint created at /health
+-To start API- > uvicorn app.main:app --reload
+-then went to http://localhost:8000/health
+
+#Topic C -> Next two upload endpoints mocked
+
+Import the necesary
+->pydantic validates the request model
+-endpoints: app.post("/upload"), @app.post("/ask")
+
+Install Ruff -> linter and formatter
+
+¡¡Errors
+-Import python-multipart was necesary -> pip install python-multipart
+then update requirement.txt -> pip freeze > requirements.txt
+
+
+
